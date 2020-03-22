@@ -1,0 +1,9 @@
+# The commands are self-explanatory.
+# System Control
+systemctl poweroff
+systemctl reboot
+systemctl suspend
+systemctl hibernate
+
+# Bluetooth Control
+bluetoothctl
