@@ -7,3 +7,9 @@ systemctl hibernate
 
 # Bluetooth Control
 bluetoothctl
+# then, list devices to get the bluetooth device's MAC address
+devices
+# pair with the device
+pair {mac_address_of_chosen_device}
+# finally, connect with the device
+connect {mac_address_of_chosen_device}
