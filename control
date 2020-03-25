@@ -13,3 +13,6 @@ devices
 pair {mac_address_of_chosen_device}
 # finally, connect with the device
 connect {mac_address_of_chosen_device}
+
+# Brightness Control
+brightnessctl
