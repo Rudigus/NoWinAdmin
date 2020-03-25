@@ -1,4 +1,0 @@
-# Ubuntu 18.04, Dell Inspiron N4050 - Both the internal keyboard and touchpad are incredibly buggy, they randomly trigger
-# and spread chaos. So the solution is to disable them. The xinput disable argument depends on the id you get with the
-# command "xinput list" or simply "xinput". For this specific laptop, the ids of the keyboard and touchpad are those.
-xinput disable 18 && xinput disable 19
