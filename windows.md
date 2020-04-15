@@ -13,6 +13,7 @@ Having node in your PATH environment variable. And the cmd current directory mus
 ### Edit Environment Variables without admin rights
 
 Windows + R (Run)
+
 Then, in cmd:
 ```shell
 rundll32 sysdm.cpl,EditEnvironmentVariables
