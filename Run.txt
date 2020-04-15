@@ -1,5 +1,0 @@
-Edit Environment Variables without admin rights:
-
-Windows + R (Run)
-
-rundll32 sysdm.cpl,EditEnvironmentVariables
