@@ -10,7 +10,9 @@ sudo apt install git
 sudo apt install build-essential
 ```
 ### Drive
-
+```shell
+sudo snap install drive
+```
 ```shell
 drive init
 ```
