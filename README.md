@@ -1,3 +1,3 @@
-# Useful Scripts
+# Useful Shell Commands
 
-In useful scripts, there aren't don`t don't
+In useful shell commands, there aren't don`t don't
