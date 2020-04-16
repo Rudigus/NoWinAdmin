@@ -9,7 +9,17 @@ sudo apt install git
 ```shell
 sudo apt install build-essential
 ```
+### Drive
 
+```shell
+drive init
+```
+```shell
+drive pull
+```
+```shell
+drive push -ignore-conflict
+```
 
 ### System Control
 ```shell
