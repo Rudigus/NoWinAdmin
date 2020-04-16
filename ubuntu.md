@@ -2,6 +2,15 @@
 
 The commands are self-explanatory.
 
+### After formatting
+```shell
+sudo apt install git
+```
+```shell
+sudo apt install build-essential
+```
+
+
 ### System Control
 ```shell
 systemctl poweroff
