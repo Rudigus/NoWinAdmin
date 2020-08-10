@@ -1,0 +1,5 @@
+gcc -Wall -g arquivo.c -o arquivo
+
+lldb arquivo
+run
+bt
