@@ -1,5 +1,5 @@
 #!/bin/bash
-# This is a script to convert audio to video (with a still image)
+# This is a script to convert audio to video (with a still image) using ffmpeg
 
 echo "Audio file(s): "
 read audio
