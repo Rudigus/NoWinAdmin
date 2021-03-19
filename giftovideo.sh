@@ -23,5 +23,5 @@ for track in $audio; do
 	# Removes unwanted characters and replace them with underscore
 	filename="${filename//'?'/_}"
 	# Where the magic happens
-  ffmpeg -i $track -ignore_loop 0 -i $gif -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" -shortest -strict -2 -c:v libx264 -threads 4 -c:a aac -b:a 192k -pix_fmt yuv420p -shortest "$filename.mp4"
+  	ffmpeg -i $track -ignore_loop 0 -i $gif -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" -shortest -strict -2 -c:v libx264 -threads 4 -c:a aac -b:a 192k -pix_fmt yuv420p -shortest "$filename.mp4"
 done
